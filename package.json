@@ -1,0 +1,33 @@
+{
+  "name": "telebot",
+  "version": "0.0.1",
+  "description": "Simple Telegram Bot Plugins",
+  "main": "beta.js",
+  "scripts": {
+    "start": "node beta.js"
+  },
+  "author": "Lann",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0",
+    "express": "^4.19.2",
+    "figlet": "^1.7.0",
+    "file-type": "^16.5.3",
+    "form-data": "^4.0.0",
+    "imgur-upload-apis": "^0.0.4",
+    "js-beautify": "^1.15.1",
+    "mime-types": "^2.1.35",
+    "moment-timezone": "^0.5.45",
+    "nayan-apis-server": "^2.4.7",
+    "nayan-imgur-upload-apis": "^2.0.4",
+    "nayan-videos-downloader": "^0.1.5",
+    "node-fetch": "^2.6.1",
+    "node-telegram-bot-api": "^0.52.0",
+    "nodemon": "^3.0.1",
+    "open-graph": "^0.2.6",
+    "request": "^2.88.2",
+    "youtube-search-api": "^1.2.2"
+  }
+}

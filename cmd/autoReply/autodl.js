@@ -1,6 +1,7 @@
 
 const path = require('path');
 const { alldown } = require("nayan-videos-downloader");
+const axios = require("axios")
 
 module.exports = {
   event: 'message',
@@ -43,6 +44,7 @@ module.exports = {
         await bot.deleteMessage(chatId, waitMsg.message_id);
 
       } catch (error) {
+        console.log(error)
         await bot.deleteMessage(chatId, waitMsg.message_id);
         await bot.sendMessage(chatId, "Failed to download the file. Please check the URL and try again.");
       }

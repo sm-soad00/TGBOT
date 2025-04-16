@@ -22,8 +22,7 @@ module.exports = {
         console.log(data);
 
         const { high, title } = data.data;
-        const caption = `Title: ${title}`;
-
+        
         const vid = (
           await axios.get(high, { responseType: 'stream' })
         ).data;
@@ -36,7 +35,7 @@ module.exports = {
         };
 
         await bot.sendVideo(chatId, vid, { 
-          caption: caption, 
+          caption: title, 
           reply_to_message_id: msg.message_id, 
           reply_markup: replyMarkup  
         });

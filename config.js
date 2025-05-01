@@ -1,6 +1,6 @@
 module.exports = {
-  ownerUsernames: ["MOHAMMADNAYAN"],//Your Username
-  ownerNumber: "+8801615298449",//Your Number
+  ownerUsernames: ["MOHAMMADNAYAN"],//SOAD
+  ownerNumber: "+8801615298449",//+8801816004207
   admin: ["5920596290", "8179590682"], // your id
   prefix: "/", // dont change prefix 
   telegramBotToken: "token",//Your Bot Tokens

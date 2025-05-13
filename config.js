@@ -3,7 +3,7 @@ module.exports = {
   ownerNumber: "+8801816004207",//+8801816004207
   admin: ["6429244657", "6429244657"], // 7617271430
   prefix: "/", // dont change prefix 
-  telegramBotToken: "7617271430:AAEAufwZsLOqmyYZDpnXB-fEv7gYkPbcr5g",//Your Bot Tokens
+  telegramBotToken: "8146926275:AAEw48b37QGiibCgjYDfd-0enxuiS5MOrhw",//Your Bot Tokens
   imageUrl: "https://i.postimg.cc/WpmJhNVg/received-383729254132460.jpg",//Thumbnail Url
   po0rt: process.env.PORT || 8053 || 8053, // port
   mess: {
